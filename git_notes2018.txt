@@ -23,3 +23,7 @@ Action flows
 	- git add|commit|push
 	- go to notes archive
 	- git pull
+	
++ tagging a branch
+	- git tag -s <tag>
+	- git push --tags
