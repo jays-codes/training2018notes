@@ -1,3 +1,4 @@
+---------------------
 Local Repos
 	- C:\jay\00_training\01_workspaces\training2018
 	-> working area : codes
@@ -9,16 +10,13 @@ Local Repos
 		- \training2018
 		- \training2018notes
 	-> archive/backup repo
-	
 -----
-
 Remote Repos
 	- https://github.com/jays-codes/training2018
 	
 	- https://github.com/jays-codes/training2018notes.git
 	
------
-
+---------------------
 Action flows
 + modify notes
 	- modify in working area
