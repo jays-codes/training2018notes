@@ -1,0 +1,10 @@
+Local Repos
+	- C:\jay\00_training\01_workspaces\training2018
+	-> working area
+
+	- C:\jay\00_training\04_repository\git\training2018
+	-> archive/backup repo
+-----
+
+Remote Repos
+	- https://github.com/jays-codes/training2018
