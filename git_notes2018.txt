@@ -21,7 +21,10 @@ Action flows
 + modify notes
 	- modify in working area
 	- git add|commit|push
-	- go to notes archive
+	-+ update notes archive
+	
++ update notes archives
+	- goto notes archive
 	- git pull
 	
 + tagging a branch
