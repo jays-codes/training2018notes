@@ -1,27 +1,29 @@
 ---------------------
 Local Repos
+	-> source repo
 	- C:\jay\00_training\01_workspaces\training2018
-	-> working area : codes
-
-	- C:\jay\00_training\00_studydocs\training2018notes
-	-> working area : notes
 	
+	-> notes repo
+	- C:\jay\00_training\00_studydocs\training2018notes
+	
+	-> archive/backup repo
 	- C:\jay\00_training\04_repository\git
 		- \training2018
-		- \training2018notes
-	-> archive/backup repo
+
 -----
 Remote Repos
+	source
 	- https://github.com/jays-codes/training2018
 	
+	notes
 	- https://github.com/jays-codes/training2018notes.git
 	
 ---------------------
 Action flows
 + modify notes
-	- modify in working area
-	- git add|commit|push
-	-+ update notes archive
+	- modify and save in working area
+	+ commit and push change
+	+ update notes archive
 	
 + update notes archives
 	- goto notes archive
@@ -30,3 +32,8 @@ Action flows
 + tagging a branch
 	- git tag -s <tag>
 	- git push --tags
+
++ commit and push change
+	- git add
+	- git commit
+	- git push
