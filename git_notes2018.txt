@@ -37,3 +37,19 @@ Action flows
 	- git add
 	- git commit
 	- git push
+
++ add an alias
+	- git config --global alias.<name> "<command> --<option1> --<optionN>"
+
+-----------------------
+Alias
++ lgoad -> log --graph --oneline --all --decorate
+
+-----------------------
+commands
++ create branch
+	- git branch <branch name>
+
++ checkout branch
+	- git checkout <branch name>
+
