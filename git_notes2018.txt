@@ -6,9 +6,14 @@ Local Repos
 	-> notes repo
 	- C:\jay\00_training\00_studydocs\training2018notes
 	
-	-> archive/backup repo
+	-> archive/backup source repo
 	- C:\jay\00_training\04_repository\git
 		- \training2018
+
+	-> archive/backup notes repo
+	- C:\jay\00_training\04_repository\git
+		- \training2018notes
+
 
 -----
 Remote Repos
