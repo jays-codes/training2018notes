@@ -40,7 +40,8 @@ Action flows
 	- modify code
 	- test
 	+ commit and push
-	+ merge to master
+	+ merge to parent branch
+	+ tag parent branch
 	+ delete branch
 
 	
@@ -69,8 +70,8 @@ commands
 	- git checkout <branch name>
 
 + delete branch
-	- git branch -D <branch>
-	<- forces delete
+	+ force local delete -> git branch -D <branch>
+	+ remote delete -> git push -d <remote> <branch>
 
 ----------------------
 
