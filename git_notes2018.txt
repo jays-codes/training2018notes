@@ -36,9 +36,7 @@ Action flows
 
 + work on a bug or feature
 	+ create branch for new feature or bugfix
-	- switch to the new branch
-	- modify code
-	- test
+	- work on branch
 	+ commit and push
 	+ merge to parent branch
 	+ tag parent branch
@@ -65,6 +63,11 @@ Alias
 commands
 + create branch
 	- git branch <branch name>
+	+ push to remote
+	+ checkout branch
+
++ push branch to remote 
+	- git push <remote> <branch>
 
 + checkout branch
 	- git checkout <branch name>
@@ -79,6 +82,7 @@ commands
 + points branch head to specific sha1 reference
 	+ git reflog <- to get the specific sha1
 	+ git branch <branch> <sha1>
+	+ git checkout <branch>
 
 ----------------------
 
