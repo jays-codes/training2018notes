@@ -84,6 +84,9 @@ commands
 	+ git branch <branch> <sha1>
 	+ git checkout <branch>
 
++ show where HEAD is pointing
+	- git show HEAD
+
 ----------------------
 
 creating a branch
