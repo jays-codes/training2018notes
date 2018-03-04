@@ -73,6 +73,13 @@ commands
 	+ force local delete -> git branch -D <branch>
 	+ remote delete -> git push -d <remote> <branch>
 
++ get all references where head has pointed
+	+ git reflog
+
++ points branch head to specific sha1 reference
+	+ git reflog <- to get the specific sha1
+	+ git branch <branch> <sha1>
+
 ----------------------
 
 creating a branch
