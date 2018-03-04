@@ -33,6 +33,16 @@ Action flows
 + update notes archives
 	- goto notes archive
 	- git pull
+
++ work on a bug or feature
+	+ create branch for new feature or bugfix
+	- switch to the new branch
+	- modify code
+	- test
+	+ commit and push
+	+ merge to master
+	+ delete branch
+
 	
 + tagging a branch
 	- git tag -s <tag>
@@ -58,3 +68,11 @@ commands
 + checkout branch
 	- git checkout <branch name>
 
++ delete branch
+	- git branch -D <branch>
+	<- forces delete
+
+----------------------
+
+creating a branch
+- to work on a feature or a bug
