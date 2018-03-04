@@ -109,6 +109,8 @@ commands
 + show where HEAD is pointing
 	- git show HEAD
 
++ git cherry-pick <sha1> <- applies current head to commit pointer
+
 ----------------------
 
 creating a branch
