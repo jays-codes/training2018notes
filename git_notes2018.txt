@@ -67,7 +67,11 @@ Alias
 commands
 
 + stash
-	+ git stash
+	- git stash
+	- git stash pop <- applies latest stash
+	- git stash list 
+	- git stash drop
+	- git stash branch <new branch> <- creates new branch and applies stash to that branch
 
 + create branch
 	- git branch <branch name>
