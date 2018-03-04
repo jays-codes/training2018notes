@@ -44,6 +44,11 @@ Action flows
 	+ tag parent branch
 	+ delete branch
 
++ resolveing a merge conflict
+	- git mergetool
+	- resolve conflict and save
+	- git diff --cached <- compares cached version with repo ver 
+
 + temporarily save changes that you dont want to appear in your current branch
 	+ stash
 
