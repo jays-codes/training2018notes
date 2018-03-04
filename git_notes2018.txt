@@ -111,6 +111,9 @@ commands
 
 + git cherry-pick <sha1> <- applies current head to commit pointer
 
++ list remote branches
+	- git branch -r
+
 ----------------------
 
 creating a branch
