@@ -42,7 +42,9 @@ Action flows
 	+ tag parent branch
 	+ delete branch
 
-	
++ temporarily save changes that you dont want to appear in your current branch
+	+ stash
+
 + tagging a branch
 	- git tag -s <tag>
 	- git push --tags
@@ -61,6 +63,10 @@ Alias
 
 -----------------------
 commands
+
++ stash
+	+ git stash
+
 + create branch
 	- git branch <branch name>
 	+ push to remote
