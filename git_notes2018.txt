@@ -66,6 +66,11 @@ Alias
 -----------------------
 commands
 
++ merge to parent branch (put changes in current branch to parent branch)
+	- go to parent branch
+	- git merge <branch where changes come from>
+	- git push
+
 + stash
 	- git stash
 	- git stash pop <- applies latest stash
