@@ -71,6 +71,11 @@ Alias
 -----------------------
 commands
 
++ git reset <sha1> --hard -> moves current branch to point at specific commit and copies to working area and index. forward commits will have no reference and be garbage collected
+	--mixed -> copies to index
+	--soft -> just move branch within commit in repo
+	--hard HEAD -> reset working copy and index to whats in current commit in repo
+
 + git rm -f <file> -> remove file from working are and index
 + git rm --cached <file> -> remove from index
 
@@ -88,9 +93,12 @@ commands
 + stash
 	- git stash
 	- git stash pop <- applies latest stash
+	- git stash apply
 	- git stash list 
 	- git stash drop
 	- git stash branch <new branch> <- creates new branch and applies stash to that branch
+	- git stash --include-untracked <- takes all data in working area and index not in repo, into the stash
+	-> like a clipboard
 
 + create branch
 	- git branch <branch name>
@@ -118,6 +126,7 @@ commands
 
 + show where HEAD is pointing
 	- git show HEAD
++ git show <sha1> -> show info about commit
 
 + git cherry-pick <sha1> <- applies current head to commit pointer
 
