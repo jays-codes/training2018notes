@@ -71,6 +71,8 @@ Alias
 -----------------------
 commands
 
++ git blame <filename> -> shows where lines in a file are coming from
+
 + git reset <sha1> --hard -> moves current branch to point at specific commit and copies to working area and index. forward commits will have no reference and be garbage collected
 	--mixed -> copies to index
 	--soft -> just move branch within commit in repo
@@ -84,6 +86,7 @@ commands
 + git diff -> compares working area and index
 + git diff --cached compares index and repo
 + git diff <branch1> <branchN> compares 2 branches
++ git diff <sha1> <sha1> <-- compares commits
 
 + merge to parent branch (put changes in current branch to parent branch)
 	- go to parent branch
