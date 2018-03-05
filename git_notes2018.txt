@@ -71,7 +71,14 @@ Alias
 -----------------------
 commands
 
++ git rm -f <file> -> remove file from working are and index
++ git rm --cached <file> -> remove from index
+
++ git mv <file1> <file2> -> rename files. moves from working area to index
+
 + git diff -> compares working area and index
++ git diff --cached compares index and repo
++ git diff <branch1> <branchN> compares 2 branches
 
 + merge to parent branch (put changes in current branch to parent branch)
 	- go to parent branch
@@ -94,6 +101,7 @@ commands
 	- git push <remote> <branch>
 
 + checkout branch
+	-> moves data from repo to working copy
 	- git checkout <branch name>
 
 + delete branch
