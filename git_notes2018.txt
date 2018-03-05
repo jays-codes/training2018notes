@@ -71,6 +71,8 @@ Alias
 -----------------------
 commands
 
++ git diff -> compares working area and index
+
 + merge to parent branch (put changes in current branch to parent branch)
 	- go to parent branch
 	- git merge <branch where changes come from>
@@ -118,3 +120,8 @@ commands
 
 creating a branch
 - to work on a feature or a bug
+
+----
+
+
+-------------------------------------------------
