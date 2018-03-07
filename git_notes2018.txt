@@ -27,6 +27,16 @@ Remote Repos
 	
 ---------------------
 Action flows
+
++ force a push
+	- git push --force origin <branch>
+
++ modifying latest commit with added changes
+	- git commit --amend
+	- git pull
+	- git push
+
+
 + modify notes
 	- modify and save in working area
 	+ commit and push change
@@ -70,6 +80,15 @@ Alias
 
 -----------------------
 commands
+
++ git revert <sha1> <- 
+
++ git rebase -i <branch> <-- modify commits from latest going back to the specified branch (excluding)
+	-> if there is a conflict, resolve then, add change to index
+	- git rebase --continue
+
++ git log --patch <- shows which changes were introduced into a commit
++ git log --grep <search word>  --oneline <- shows commits with given search wordby grep rules
 
 + git blame <filename> -> shows where lines in a file are coming from
 
@@ -119,8 +138,9 @@ commands
 	+ force local delete -> git branch -D <branch>
 	+ remote delete -> git push -d <remote> <branch>
 
-+ get all references where head has pointed
-	+ git reflog
++ git reflog
+	<- get all references where head has pointed, also applies for rebase and commit amend ops
+
 
 + points branch head to specific sha1 reference
 	+ git reflog <- to get the specific sha1
@@ -143,5 +163,7 @@ creating a branch
 
 ----
 
+1.) commit often
+2.) when happy with state of code, do interactive rebase (refactor commits), squash multiple commits together
 
 -------------------------------------------------
